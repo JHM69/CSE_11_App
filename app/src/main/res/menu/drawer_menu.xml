@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/stu"
+		android:icon="@drawable/ic_people_outline_black_24dp"
+		android:title="All Students" />
+	<item
+        android:id="@+id/meme"
+        android:icon="@drawable/ic_bookmark_border_black_24dp"
+        android:title="Facebook MEME Page" />
+	
+    <item
+        android:id="@+id/site"
+        android:icon="@drawable/ic_language_black_24dp"
+        android:title="Department Website" />
+	
+	<item
+        android:id="@+id/dsite"
+        android:icon="@drawable/ic_call_missed_outgoing_black_24dp"
+        android:title="University Website" />
+
+   
+	<item
+        android:id="@+id/dev"
+        android:icon="@drawable/ic_adb_black_24dp"
+        android:title="About Developer" />
+	
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Close this App" />
+	
+	
+</menu>

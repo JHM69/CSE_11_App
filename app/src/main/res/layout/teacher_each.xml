@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/next"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="13dp"
+	android:layout_marginBottom="13dp"
+	android:clickable="true"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:orientation="vertical"
+	android:focusable="true">
+
+	<LinearLayout
+		android:layout_width="405dp"
+		android:layout_height="wrap_content"
+		android:gravity="left|center|center_vertical"
+		android:orientation="horizontal">
+
+		<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/tools"
+			android:id="@+id/imgt"
+			android:layout_width="63dp"
+			android:layout_height="63dp"
+			android:layout_gravity="left|center"
+			android:layout_margin="5dp"
+			android:layout_marginTop="5dp"
+			android:scaleType="centerCrop"
+			android:src="@drawable/not"
+			app:civ_border_color="@color/colorPrimary"
+			app:civ_border_width="2dp" />
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/namet"
+				android:layout_width="265dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginTop="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_toRightOf="@+id/image_url"
+				android:fontFamily="@font/nunitosans_extrabold"
+				android:text="name"
+				android:textColor="@color/colorPrimaryDark"
+				android:textIsSelectable="true"
+				android:textSize="17sp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/ast"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginBottom="1dp"
+				android:layout_toRightOf="@+id/image_url"
+				android:fontFamily="@font/nunitosans_bold"
+				android:text="nick"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="12sp"
+				android:textStyle="bold" />
+
+			<LinearLayout
+				android:id="@+id/mailde"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/mailt"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="1dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="1dp"
+					android:layout_toRightOf="@+id/image_url"
+					android:fontFamily="sans-serif-condensed-light"
+					android:gravity="center_vertical"
+					android:singleLine="true"
+					android:text="nick"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="13sp" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:orientation="horizontal">
+
+			<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/link"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginRight="7dp"
+				android:clickable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				android:orientation="vertical"
+				card_view:cardBackgroundColor="@color/colorPrimaryDark"
+				card_view:cardCornerRadius="20dp"
+				card_view:cardElevation="7dp">
+
+				<ImageView
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:layout_gravity="center"
+					android:layout_margin="3dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginRight="10dp"
+					card_view:srcCompat="@drawable/ic_info_outline_black_24dp" />
+
+			</androidx.cardview.widget.CardView>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

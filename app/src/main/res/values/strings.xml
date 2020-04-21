@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CSE 11, Jagannath University</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="date_format_key">date_format_key</string>
+    <string name="default_date_format">dd/MM/yyyy</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
+ 

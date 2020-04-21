@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jhm69.cse11">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".Activity.UpdateClassEditActivity" />
+        <activity android:name=".Activity.ClassUpdateActivity"
+            android:label="Class Update"
+            />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.SlybsActivity"
+            android:label="CSE&apos;11 Syllabus of JnU" />
+        <activity
+            android:name=".Activity.StudentDetailsActivity"
+            android:label="Student Details" />
+        <activity
+            android:name=".Activity.SingUpActivity"
+            android:label="Sing Up" />
+        <activity
+            android:name=".Activity.RoutineActivity"
+            android:label="Class Routine" />
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:label="About Me" />
+        <activity
+            android:name=".Activity.StudentListActivity"
+            android:label="Students List">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name=".Activity.TeacherListActivity"
+            android:label="Teachers List">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+    </application>
+
+</manifest>

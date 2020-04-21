@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+     @font-face {
+        font-family: 'kalpurush';
+        src: url('file:///android_asset/fonts/kalpurush.ttf');
+        }
+        body {
+        font-family: 'kalpurush';
+        text-align: justify;
+        }
+
+
+
+.accordion {
+  background-color: #cee2f5;
+  color: #444;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  transition: 4s;
+}
+
+.active, .accordion:hover {
+  background-color: #7aafe3;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 0px;
+}
+
+.active:after {
+  content: "\2212";
+}
+a{
+  font-family: helvetica;
+  text-decoration: none;
+
+}
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+.panel {
+  padding: 0 16px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 3s ease-out;
+}
+</style>
+
+
+</head>
+<body bgcolor="#cee2f5">
+  <h1 class="text"><p align="center" color="#777">First Semister</p></h1>
+  <button class="accordion"><b>CSE-1101: Structured Programming Language</button></b>
+<div class="panel">
+  <h5>Major | Mark: 100 | Credit: 3</h5><hr/>
+
+    Datatypes, operators, expressions, control structures; 
+	<br/><br/>
+  <b>Functions and program structure: <br/></b>
+	parameter passing conventions, scope rules and storage classes, recursion; Header files;
+	Preprocessor; Pointers and arrays; Strings; Multidimensional array; 
+	<br/><br/>
+  <b>User defined data types: <br/></b>
+	structures, unions, enumerations; <br/><br/>
+  <b>Input and Output: <br/></b>
+	standard input and output, formatted input and output, file access;
+	Variable length argument list; Command line parameters; Error 
+	Handling; Graphics; Linking; Library functions.<br/><br/>
+	
+  <b>Reference language: C </b><br/><br/>
+  <b>Books Recommended : </b><br/>
+      1. H. Shildt, C/C++ Complete Reference. <br/>
+	  2. H. Schildt, Teach yourself C <br/>
+	  3. C How to Program, Deitel&Deitel <br/>
+	  4. Programming with C, E. Balagurusamy <br/><br/>
+</div>
+
+
+
+  <button class="accordion"><b>CSEL-1102: Structured Programming Language Lab</button></b>
+  <div class="panel">
+	<h5>Major | Mark: 50 | Credit: 1.5</h5><hr/>
+
+    <b>Laboratory classes are based on course CSE-1103.</b>
+	<br/>
+	
+	<p>The goal of this lab is to provide students with 
+	  the skills needed to effectively design, develop, implement, debug, test, and maintain programs 
+	  and more generally to solve problems using a computer.<br/> Students will be asked to solve various 
+	  problems in a regular basis to increase their programming ability. Student should clearly 
+	  understand the purpose of <b>header(.h) and source(.c)</b> files. Learn to writing Makefile and use of 
+	  make for compilation and linking. The student will use both the integrated development 
+	  environment(such as eclipse) and command line compilation to run programs. </p><br/>
+	<br/>
+  </div>
+
+
+
+  <button class="accordion"><b>CSER-1103: Mathematics-I (Calculus)</button></b>
+  <div class="panel">
+	<h5>Non-Major | Mark: 100 | Credit: 3</h5><hr/>
+
+    <b>Differential Calculus: Function and their graphs:</b>
+	<br/>
+
+	Polynomial and rational functions, logarithmic and exponential functions, trigonometric functions and their inverses, hyperbolic functions and their inverses, combination of such functions. Limits of Functions:Definition. basic limit theorems with proofs, limit at infinity and infinite limits,continuous functions. algebra of continuous functions,properties of continuous functions on closed and boundary intervals.
+	  </b><br/>
+	<p><b> Differentiation:</b>
+	  definition of derivative, one-sided derivatives, rules of differentiation (proofs and applications), successive differentiation, Leibnitz theorem andrelated problems, linear approximations and differentials.Rolles theorem, Lagrange s and cauchy s mean value theorems. Problems involving maxima and minima, concavity and points of inflection, Taylors theorem with general form of the remainder, Lagranges and Cauchys forms remainder, Taylors series, Differentiation and integration of series, validity of Taylor expansions and computations with series, indeterminate forms, L Hospitals rules.</p><br/>
+	<b>Integral calculus:</b>
+	
+	Antiderivatives and indefinite-integrals,techniques of integration,definite integration using antiderivatives,definite integration using Riemann sums,fundamental theorems of calculus,basic properties of integration, integration by reduction.<br/>
+	<br/> <b>Application of integration<br/> </b>:Plane areas,solids of revolutions,volumes by cylindrical shells, volumes by cross-sections, arc length surface area of revolution.Improper integrals,gamma and beta functions,graphing in polar co-ordinates,successive integrations,area and length in polar coordinates.
+	<br/><br/>
+	
+	<b>Books Recommended: </b><br/>
+	1. Calculus with Analytic Geometry, Howards Anton <br/>
+	2. Dr.Md. Abdul Matin&BidhbusonChakraborty, Differential Calculus. <br/>
+	3. Calculus Thomas Finley.<br/>
+	
+  </div>
+  
+  
+  <button class="accordion"><b>CSER-1104: Physics</button></b>
+  <div class="panel">
+	<h5>Non-Major | Mark: 100 | Credit: 3</h5><hr/>
+
+	<b>Waves and Oscillations: </b><br/> Simple harmonic motion: Differential equation of a simple harmonic 
+	oscillator, Total energy and average energy, Combination of simple harmonic oscillations, 
+	Lissajous figures, Spring-mass system, Calculation of time period of torsional pendulum, 
+	Damped oscillation, Forced oscillation, Resonance; Wave: basic definitions, Differential equation 
+	of a progressive wave, Power and intensity of wave motion, Stationary wave, Group velocity and 
+	phase velocity; Architectural acoustics, Reverberation and Sabines formula. 
+	<br/> <br/>
+	<b>Properties of Matter:</b><br/> Crystalline and non-crystalline solids, Unit cell, Lattice and Basis, Bravais 
+	Lattices, Crystal Planes and Miller indices, Interplanar Spacing, Simple crystal structures: NaCl, 
+	CsCl, Bragg's Law, methods of determination of crystal structure; Defects in solids: point 
+	defects, line defects; Bonds in solids, inter-atomic distances, calculation of cohesive and bonding 
+	energy; Introduction to band theory: distinction between metal, semiconductor and insulator; 
+	Dielectric Properties of matter: Meaning of Dielectric, Magnetic properties of matter: Different 
+	types of magnetic materials; Introduction of superconductivity. 
+	<br/> <br/> 
+	<b>Electricity and Magnetism:</b> <br/> 
+	Electrostatics: Fields, Potentials, Capacitors and Dielectrics; 
+	Steady-State Current, RC Circuits, Time Varying Current And Fields, Steady-State Magnetic 
+	Fields, Electromagnetic Induction, Maxwells Equations, Poyntings Theorem, Wave Equation, 
+	Waves in Vacuum and in Materials, Transmission and Reflection at Boundaries, Guided Waves, 
+	Dispersion. <br/> <br/> 
+	<b>Books Recommended:</b> <br/> 
+    1. David Halliday& Robert Resnick, Physics Part I and Part-II.<br/> 
+	2. N. Subrahmanyam, BrijLal, Optics.<br/> 
+	3. N. Subrahmanyam, BrijLal, Heat and Thermodynamics.<br/><br/> 
+  </div>
+
+  <button class="accordion"><b>CSEL- 1106: Electrical Circuit Analysis</button></b>
+  <div class="panel">
+	<h5>Major | Mark: 100 | Credit: 3</h5><hr/>
+
+	<br/>
+	<b>Circuit variables and elements:</b><br/> Voltage, current, power, energy, independent and dependent 
+	sources, resistance. Basic laws: Ohms law, Kirchhoffs current and voltage laws. Simple resistive 
+	circuits: Series and parallel circuits, voltage and current division, wye-delta transformation. 
+	Techniques of circuit analysis: Nodal and mesh analysis including supernode and supermesh. 
+	Network theorems: Source transformation, Thevenins, Nortons and superposition theorems 
+	with applications in circuits having independent and dependent sources, maximum power 
+	transfer condition and reciprocity theorem. <br/> <br/> 
+	<b>Energy storage elements:</b><br/>Inductors and 
+	capacitors, series parallel combination of inductors and capacitors. Responses of RL and RC 
+	circuits: Natural and step responses.
+	<br/> <br/> 
+	<b>Magnetic quantities and variables: </b><br/>Flux, permeability and 
+	reluctance, magnetic field strength, magnetic potential, flux density, magnetization curve. 
+	<br/> <br/> 
+	<b>Laws in magnetic circuits: </b><br/>Ohms law and Amperes circuital law. Magnetic circuits: series, parallel 
+	and series-parallel circuits.
+	<br/> <br/> 
+	<b>Sinusoidal functions:</b><br/>Instantaneous current, voltage, power, effective 
+	current and voltage, average power, phasors and complex quantities, impedance, real and reactive 
+	power, power factor. <br/> <br/> 
+	<b>Analysis of single phase AC circuits:</b><br/>Series and parallel LR, RC and LRC circuits, nodal and mesh analysis, application of network theorems in AC circuits, circuits 
+	with non-sinusoidal excitations, transients in AC circuits, passive filters. Resonance in AC 
+	circuits: Series and parallel resonance. <br/> <br/> 
+
+	<b>Book Recommended: </b><br/> 
+	1. Robert L. Boylestad, Introductory Circuit Analysis. <br/> 
+	2. B. L., Theraja, Electrical Technology, Vol. I <br/> 
+	3. Electrical Circuits, Richard C. Dorf <br/> 
+  </div>
+  
+  
+  
+  <button class="accordion"><b>CSEL- 1107: Electrical Circuit Analysis Lab</button></b>
+  <div class="panel">
+	<h5>Major | Mark: 50 | Credit: 1</h5><hr/>
+	
+  <br/>
+  Laboratory classes are based on CSE-1105. Students will be introduced with basic electrical 
+  components such as capacitor, inductors and electronic devices such as diode, BJT, FET and 
+  their characteristics. They will implement different network theorems. <br/>
+  
+</div>
+
+
+  <button class="accordion"><b>CSEL- 1108: English</button></b>
+  <div class="panel">
+	<h5>Non-Major | Mark: 100 | Credit: 3</h5><hr/>
+
+	<b>General discussion:</b><br/>Introduction, various approaches to learning English.<br/><br/>
+	
+	<b>Grammatical Problems:</b><br/>Construction of sentences, grammatical errors, sentence variety and style, 
+	conditionals, vocabulary and diction.
+	<br/><br/>
+	<b>Reading Skill:</b><br/>Developing readability, scan and skin 
+	reading, generating ideas through purposive reading.
+	<br/><br/>
+	<b>Writing Skill:</b><br/>Principles of effective 
+	writing; Organization, planning and development of writing; Composition, précis writing, 
+	amplification. <br/><br/>
+	<b>General strategies for the writing process:</b><br/>Generating ideas, identifying 
+	audiences and purposes, construction arguments, stating problems, drafting and 
+	finalizing.
+	<br/><br/>
+	<b>Approaches to Communication:</b><br/>Business communication, and different types of 
+	business communication.
+	<br/><br/>
+	<b>Listening Skill:</b><br/>Strategies for developing listening skills.Speaking 
+	Skill: Practicing dialogue; Story telling; Effective oral presentation.
+	<br/><br/>
+	<b>Report Writing:</b><br/>Defining a 
+	report, classification of reports, structure of a report, and writing of reports. <br/><br/>
+	<b>Books Recommended:</b><br/>
+	1. Michael Swan, Practical English Usage. <br/>
+	2. Wren & Martin, Practical English Grammar. <br/>
+	3. Imhoof& Hudson, From Paragraph to Essay.<br/>
+
+  </div>
+  
+
+  <button class="accordion"><b>CSEL- 1109: History of the liberation War of Bangladesh</button></b>
+  <div class="panel">
+	<h5>Non-Major | Mark: 100 | Credit: 3</h5><hr/>
+
+	<br/>
+	History of the liberation War of Bangladesh.
+	<br/>
+
+  </div>
+  
+
+  
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

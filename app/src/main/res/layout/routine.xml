@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:background="@color/bac"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:background="@color/colorPrimary"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<ImageView
+			android:id="@+id/icon"
+			android:layout_gravity="center"
+			android:src="@drawable/ic_access_time_black_24dp"
+			android:layout_width="44dp"
+			android:layout_height="44dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+
+			android:layout_height="match_parent"
+			android:layout_gravity="bottom"
+			android:layout_marginLeft="5dp"
+			android:fontFamily="@font/nunitosans_extrabold"
+			android:gravity="center_vertical"
+			android:text="Class Routine"
+			android:textColor="#ffffff"
+			android:textSize="24sp"
+			android:textStyle="bold" />
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<com.jhm69.cse11.Others.TouchImageView
+		android:id="@+id/pdfv"
+		android:layout_gravity="center"
+		android:src="@drawable/rout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+</LinearLayout>
+

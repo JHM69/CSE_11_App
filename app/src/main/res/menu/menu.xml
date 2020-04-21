@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/itm"
+        android:icon="@drawable/fbi"
+        android:title="ff"
+        app:showAsAction="ifRoom"/>
+	
+</menu>

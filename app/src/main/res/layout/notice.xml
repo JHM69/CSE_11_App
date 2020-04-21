@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<androidx.cardview.widget.CardView
+	android:background="@color/bac"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:foreground="?android:attr/selectableItemBackground"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	card_view:cardElevation="30dp"
+	card_view:cardCornerRadius="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+	card_view:cardPreventCornerOverlap="true"
+	android:layout_marginBottom="5dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+	android:layout_marginTop="7dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/text_name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="1dp"
+		android:layout_toRightOf="@+id/image_url"
+		android:fontFamily="@font/nunitosans_extrabold"
+		android:text="name"
+		android:textColor="@color/colorPrimaryDark"
+		android:textIsSelectable="true"
+		android:textSize="17sp"
+		android:textStyle="bold" />
+
+
+	<TextView
+		android:id="@+id/date"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="4dp"
+		android:layout_toRightOf="@+id/image_url"
+		android:fontFamily="@font/nunitosans_bold"
+		android:text="date"
+		android:textColor="#FF5C76B2"
+		android:textIsSelectable="true"
+		android:textSize="10sp"
+		android:textStyle="bold" />
+
+
+	<TextView
+		android:id="@+id/bodyTV"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/text_name"
+		android:layout_marginTop="3dp"
+		android:layout_marginRight="3dp"
+		android:layout_marginBottom="8dp"
+		android:layout_toRightOf="@+id/image_url"
+		android:fontFamily="@font/nunitosans_regular"
+		android:text="home"
+		android:textIsSelectable="true"
+		android:textSize="16sp"
+		android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/image_url"
+        android:layout_width="397dp"
+		android:paddingBottom="8dp"
+		android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="clip_horizontal"
+        android:maxHeight="240dp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

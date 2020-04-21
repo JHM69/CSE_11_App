@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6FA4D8</color>
+    <color name="colorPrimaryDark">#FF5C76B2</color>
+    <color name="colorAccent">#FF75A9DC</color>
+	
+	<color name="bac">#FFDEEAF6</color>
+
+	<color name="orange">#ff8e35</color>
+    <color name="green"> #01cd98</color>
+    <color name="blue"> #3598db</color>
+    <color name="biolate"> #9a59b5</color>
+    <color name="red"> #ff2c55</color>
+    <color name="gray">#5d568c</color>
+    <color name="black"> #2d3e50</color>
+
+
+
+</resources>
