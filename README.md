@@ -19,7 +19,7 @@ Change log:
 
 *Added some bugs to fix later.
 
-Link: https://drive.google.com/uc?id=1CMzFV9bStDdR-ngk01cTb-uPyfw-PE1M&export=download
+Link: https://jhm69.github.io/CSE-11-JnU/cse_jnu_v2.apk
 ![preview](img1.jpg) 
 ![preview](img2.jpg) 
 ![preview](img3.jpg) 
